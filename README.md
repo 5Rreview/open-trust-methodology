@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://5rrrrr.com">
+    <img src="assets/banner.svg" alt="5★★★★★.com — Reviews You Can Trust" width="100%">
+  </a>
+</p>
+
 # 5R★ Open Trust Methodology
 
 **Trust is Measurable. The Methodology is Open.**
