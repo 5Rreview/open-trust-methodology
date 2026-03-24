@@ -5,15 +5,11 @@
       <stop offset="50%" stop-color="#141416"/>
       <stop offset="100%" stop-color="#1C1C20"/>
     </linearGradient>
-    <linearGradient id="star-grad" x1="0" y1="0" x2="0" y2="1">
+    <radialGradient id="star-grad" cx="50%" cy="30%" r="60%">
       <stop offset="0%" stop-color="#FFD54F"/>
       <stop offset="50%" stop-color="#F7A610"/>
       <stop offset="100%" stop-color="#F19314"/>
-    </linearGradient>
-    <linearGradient id="star-grad2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#F19314" stop-opacity="0.08"/>
-    </linearGradient>
+    </radialGradient>
     <linearGradient id="line-grad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#F7A610" stop-opacity="0"/>
       <stop offset="30%" stop-color="#F7A610" stop-opacity="0.3"/>
@@ -21,8 +17,15 @@
       <stop offset="70%" stop-color="#F7A610" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#F7A610" stop-opacity="0"/>
     </linearGradient>
-    <!-- Star path -->
-    <path id="star-path" d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/>
+    <!-- Original 5R★ brand star with cutout -->
+    <symbol id="brand-star" viewBox="0 0 34 34">
+      <path fill="url(#star-grad)" fill-rule="evenodd" clip-rule="evenodd" d="M20.8129 12.6806C20.9216 13.0075 21.2275 13.2281 21.572 13.2281H31.4939C32.2731 13.2281 32.5925 14.2287 31.9575 14.6802L23.5259 20.6741L17.051 25.2408L8.51725 31.278C7.88641 31.7242 7.05214 31.1054 7.29615 30.3722L10.3357 21.2391C10.4469 20.9048 10.3264 20.5371 10.0388 20.3335L2.05283 14.6811C1.41614 14.2305 1.73498 13.2281 2.51501 13.2281H12.4259C12.7704 13.2281 13.0763 13.0076 13.185 12.6807L16.2407 3.49738C16.4836 2.76743 17.5161 2.76751 17.7589 3.49751L20.8129 12.6806ZM24.3865 23.4532L18.6831 24.8696C18.0206 25.0341 17.8552 25.8994 18.4103 26.2967L25.4782 31.3542C26.1078 31.8047 26.9464 31.1873 26.7033 30.4523L24.3877 23.453Z"/>
+      <path fill="#E07D00" opacity="0.5" d="M28 28C18 25 7.4 19.7 0.8 12L-2 14L-2 40L40 40L40 28Z"/>
+    </symbol>
+    <!-- Small decorative star (no cutout) -->
+    <symbol id="deco-star" viewBox="0 0 34 34">
+      <path fill="url(#star-grad)" fill-rule="evenodd" clip-rule="evenodd" d="M20.8129 12.6806C20.9216 13.0075 21.2275 13.2281 21.572 13.2281H31.4939C32.2731 13.2281 32.5925 14.2287 31.9575 14.6802L23.5259 20.6741L17.051 25.2408L8.51725 31.278C7.88641 31.7242 7.05214 31.1054 7.29615 30.3722L10.3357 21.2391C10.4469 20.9048 10.3264 20.5371 10.0388 20.3335L2.05283 14.6811C1.41614 14.2305 1.73498 13.2281 2.51501 13.2281H12.4259C12.7704 13.2281 13.0763 13.0076 13.185 12.6807L16.2407 3.49738C16.4836 2.76743 17.5161 2.76751 17.7589 3.49751L20.8129 12.6806Z"/>
+    </symbol>
   </defs>
 
   <!-- Background -->
@@ -35,33 +38,40 @@
 
   <!-- Decorative scattered stars -->
   <g opacity="0.12">
-    <use href="#star-path" transform="translate(80,40) scale(1.2)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(180,220) scale(0.8)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(1050,50) scale(0.9)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(1100,200) scale(1.1)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(60,180) scale(0.6)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(1020,140) scale(0.7)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(250,60) scale(0.5)" fill="url(#star-grad)"/>
-    <use href="#star-path" transform="translate(950,240) scale(0.6)" fill="url(#star-grad)"/>
+    <use href="#deco-star" x="70" y="30" width="28" height="28"/>
+    <use href="#deco-star" x="170" y="210" width="20" height="20"/>
+    <use href="#deco-star" x="1040" y="40" width="22" height="22"/>
+    <use href="#deco-star" x="1090" y="190" width="26" height="26"/>
+    <use href="#deco-star" x="50" y="170" width="16" height="16"/>
+    <use href="#deco-star" x="1010" y="130" width="18" height="18"/>
+    <use href="#deco-star" x="240" y="50" width="14" height="14"/>
+    <use href="#deco-star" x="940" y="230" width="16" height="16"/>
+    <use href="#deco-star" x="140" y="120" width="12" height="12"/>
+    <use href="#deco-star" x="1060" y="260" width="14" height="14"/>
   </g>
 
-  <!-- Central icon star -->
-  <g transform="translate(600,65)">
-    <rect x="-28" y="-28" width="56" height="56" rx="14" fill="#1C1C20" stroke="#F7A610" stroke-opacity="0.2" stroke-width="1"/>
-    <path d="M0,-14 l4.33,8.78 9.69,1.41-7.01,6.83 1.65,9.65L0,8.2l-8.66,4.47 1.65-9.65-7.01-6.83 9.69-1.41z" fill="url(#star-grad)"/>
+  <!-- Central icon star in rounded square -->
+  <g transform="translate(572,30)">
+    <rect width="56" height="56" rx="14" fill="#1C1C20" stroke="#F7A610" stroke-opacity="0.2" stroke-width="1"/>
+    <use href="#brand-star" x="8" y="8" width="40" height="40"/>
   </g>
 
   <!-- Badge: 5R★ · TRUST · AI · BUSINESS -->
-  <rect x="440" y="105" width="320" height="28" rx="14" fill="none" stroke="#F7A610" stroke-opacity="0.25" stroke-width="1"/>
-  <text x="600" y="124" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#F7A610" letter-spacing="2">5R★ · TRUST · AI · BUSINESS</text>
+  <rect x="440" y="100" width="320" height="28" rx="14" fill="none" stroke="#F7A610" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="600" y="119" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#F7A610" letter-spacing="2">5R★ · TRUST · AI · BUSINESS</text>
 
-  <!-- Main title: 5★★★★★.com -->
-  <g transform="translate(600,170)">
-    <text text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="52" font-weight="800" letter-spacing="-1">
-      <tspan fill="white">5</tspan>
-      <tspan fill="#F7A610">★★★★★</tspan>
-      <tspan fill="white" font-size="36">.com</tspan>
-    </text>
+  <!-- Main title: 5 + brand stars + .com -->
+  <g transform="translate(600,168)">
+    <!-- "5" -->
+    <text x="-195" text-anchor="start" font-family="system-ui,-apple-system,sans-serif" font-size="56" font-weight="800" fill="white">5</text>
+    <!-- 5 original brand stars in a row -->
+    <use href="#brand-star" x="-160" y="-36" width="44" height="44"/>
+    <use href="#brand-star" x="-112" y="-36" width="44" height="44"/>
+    <use href="#brand-star" x="-64" y="-36" width="44" height="44"/>
+    <use href="#brand-star" x="-16" y="-36" width="44" height="44"/>
+    <use href="#brand-star" x="32" y="-36" width="44" height="44"/>
+    <!-- ".com" -->
+    <text x="86" text-anchor="start" font-family="system-ui,-apple-system,sans-serif" font-size="40" font-weight="800" fill="white">.com</text>
   </g>
 
   <!-- Horizontal line -->
@@ -71,7 +81,7 @@
   <text x="600" y="225" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="600" fill="#A1A1AA" letter-spacing="4">REVIEWS YOU CAN TRUST</text>
 
   <!-- Subtitle -->
-  <text x="600" y="260" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#71717A" letter-spacing="1">Open Trust Platform · AI-Powered Review Analysis · 20 Languages</text>
+  <text x="600" y="258" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#71717A" letter-spacing="1">Open Trust Platform · AI-Powered Review Analysis · 20 Languages</text>
 
   <!-- Bottom accent line -->
   <rect x="560" y="278" width="80" height="2" rx="1" fill="url(#star-grad)" opacity="0.4"/>
