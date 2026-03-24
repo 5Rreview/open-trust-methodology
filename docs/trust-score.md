@@ -1,6 +1,6 @@
-# Trust Score Calculation
+# 🛡️ 5R★ Trust Score Calculation
 
-The trust score is a single number (0-100) representing how trustworthy a company is, based on all available signals.
+The 5R★ Trust Score is a single number (0–100) representing how trustworthy a company is, based on all available signals.
 
 ## Approach: Bayesian Averaging
 
@@ -14,7 +14,7 @@ Without Bayesian averaging, 3 fake reviews could give a company a perfect rating
 
 ## Input Signals
 
-The trust score combines multiple weighted signals:
+The 5R★ Trust Score combines multiple weighted signals:
 
 | Signal | Source |
 |--------|--------|
@@ -35,7 +35,7 @@ This means:
 - Confidence grows with review count and diversity
 - The displayed score reflects the *likely minimum*, not just the average
 
-### Confidence Display
+### 📊 Confidence Display
 
 | Reviews | Confidence | Display |
 |---------|------------|---------|
@@ -48,14 +48,14 @@ This means:
 
 | Range | Label | Meaning |
 |-------|-------|---------|
-| 90-100 | Excellent | Consistently high-quality service |
-| 75-89 | Good | Generally positive with minor issues |
-| 60-74 | Average | Mixed reviews, some concerns |
-| 40-59 | Below Average | Significant issues reported |
-| 20-39 | Poor | Many unresolved complaints |
-| 0-19 | Critical | Serious trust concerns |
+| 90–100 | ⭐ Excellent | Consistently high-quality service |
+| 75–89 | ✅ Good | Generally positive with minor issues |
+| 60–74 | ➖ Average | Mixed reviews, some concerns |
+| 40–59 | ⚠️ Below Average | Significant issues reported |
+| 20–39 | 🔻 Poor | Many unresolved complaints |
+| 0–19 | 🚨 Critical | Serious trust concerns |
 
-## What Does NOT Affect the Score
+## 🚫 What Does NOT Affect the Score
 
 - Whether the company pays for premium features
 - The company's size or age

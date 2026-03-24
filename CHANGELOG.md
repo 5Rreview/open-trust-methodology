@@ -1,13 +1,13 @@
-# Changelog
+# 📋 Changelog
 
-All notable changes to the 5R Open Trust Methodology are documented here.
+All notable changes to the 5R★ Open Trust Methodology are documented here.
 
 Format follows [CalVer](https://calver.org/) — `YYYY.MM` for releases.
 
 ## 2025.06 — Initial Publication
 
 ### Published
-- Trust Score calculation methodology (Bayesian averaging with neutral prior)
+- 5R★ Trust Score calculation methodology (Bayesian averaging with neutral prior)
 - Confidence intervals for score reliability
 - Exponential time decay with industry-specific tuning
 - Reviewer reputation weight system (7 factors)

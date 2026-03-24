@@ -1,4 +1,4 @@
-# Integrity & Detection
+# 🔍 Integrity & Detection
 
 A multi-level detection pipeline that identifies manipulated reviews without false-positive censorship.
 
@@ -9,16 +9,16 @@ A multi-level detection pipeline that identifies manipulated reviews without fal
 - Weight reduction is preferred over deletion — neutralizes manipulation without confrontation
 - The system operates autonomously without AI dependencies; AI analysis is an optional enhancement
 
-## Approach: Weight Reduction Over Deletion
+## ⚖️ Approach: Weight Reduction Over Deletion
 
 | Approach | Problem |
 |----------|---------|
 | Delete suspicious reviews | Creates conflict, legal risk, user frustration |
 | Reduce weight silently | Neutralizes manipulation without confrontation |
 
-The review stays visible, but its influence on the trust score is minimized. The reviewer doesn't know their weight was reduced, removing the incentive to create a new account and try again.
+The review stays visible, but its influence on the 5R★ Trust Score is minimized. The reviewer doesn't know their weight was reduced, removing the incentive to create a new account and try again.
 
-## Level 1 — Rule-Based Detection (Instant)
+## 🔬 Level 1 — Rule-Based Detection (Instant)
 
 Runs on every review submission. Produces a risk score based on multiple independent signals.
 
@@ -62,7 +62,7 @@ Detection of invisible characters and encoding artifacts sometimes inserted by a
 
 Cross-checking whether the rating matches the sentiment expressed in the review text.
 
-## Level 2 — AI-Enhanced Analysis (Optional)
+## 🤖 Level 2 — AI-Enhanced Analysis (Optional)
 
 When Level 1 produces a medium-risk or higher score, an optional AI analysis can be triggered asynchronously. This is a supplementary signal — the system never depends on it for decisions.
 
@@ -73,34 +73,34 @@ When Level 1 produces a medium-risk or higher score, an optional AI analysis can
 
 > Level 2 is not required for system operation. All production decisions can be made on Level 1 alone.
 
-## Risk Levels
+## 🚦 Risk Levels
 
 Reviews are categorized by risk level, each with appropriate automated actions:
 
 | Level | Action |
 |-------|--------|
-| Critical | Held for immediate moderator review, minimal scoring weight |
-| High | Flagged for moderator review, significantly reduced weight |
-| Medium | Soft flag, reduced weight, optional AI analysis |
-| Low | Minor weight reduction, noted in admin |
-| Clean | No action, full weight |
+| 🚨 Critical | Held for immediate moderator review, minimal scoring weight |
+| 🔴 High | Flagged for moderator review, significantly reduced weight |
+| 🟡 Medium | Soft flag, reduced weight, optional AI analysis |
+| 🟢 Low | Minor weight reduction, noted in admin |
+| ✅ Clean | No action, full weight |
 
 ## Signal Categories
 
 Each detection produces categorized signals for transparency:
 
-1. **Language patterns** — AI-characteristic phrases and structure
-2. **Content duplication** — exact, fuzzy, and cross-subject matches
-3. **Behavioral signals** — timing, network, and account anomalies
-4. **Technical markers** — encoding artifacts and invisible characters
-5. **Consistency checks** — rating vs. sentiment alignment
-6. **AI analysis** — optional Level 2 assessment
+1. 📝 **Language patterns** — AI-characteristic phrases and structure
+2. 🔄 **Content duplication** — exact, fuzzy, and cross-subject matches
+3. 👤 **Behavioral signals** — timing, network, and account anomalies
+4. 🔧 **Technical markers** — encoding artifacts and invisible characters
+5. 📊 **Consistency checks** — rating vs. sentiment alignment
+6. 🤖 **AI analysis** — optional Level 2 assessment
 
-## Company Abuse Protection
+## 🛡️ Company Abuse Protection
 
 When a company receives an unusual spike of reviews (positive or negative), the system uses statistical change detection to identify anomalous patterns:
 
-- Trust score is temporarily paused during investigation
+- 5R★ Trust Score is temporarily paused during investigation
 - A message indicates unusual activity has been detected
 - Reviews during the anomaly period receive reduced weight
 - Normal scoring resumes after review by moderator or after the pattern normalizes

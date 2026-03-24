@@ -1,4 +1,4 @@
-# Resolution Loop
+# 🔄 Resolution Loop
 
 The review-response-resolution cycle is the core mechanism that turns a review platform from a complaint board into a trust infrastructure.
 
@@ -11,7 +11,7 @@ On most review platforms:
 - Companies fear and leave the platform
 - Trust drops, growth stops
 
-## The Solution: Resolution as a First-Class Feature
+## ✅ The Solution: Resolution as a First-Class Feature
 
 ### The Loop
 
@@ -20,10 +20,10 @@ On most review platforms:
 2. Company responds publicly
 3. Issue gets resolved
 4. User updates review/rating
-5. Trust score reflects resolution
+5. 5R★ Trust Score reflects resolution
 ```
 
-### Key Metrics
+### 📈 Key Metrics
 
 | Metric | Description | Visible? |
 |--------|-------------|----------|
@@ -32,16 +32,16 @@ On most review platforms:
 | Avg. Response Time | How fast the company responds | Yes |
 | Updated Reviews | Reviews changed after resolution | Yes (before/after shown) |
 
-### Impact on Trust Score
+### Impact on 5R★ Trust Score
 
-The resolution loop affects trust score in two ways:
+The resolution loop affects 5R★ Trust Score in two ways:
 
 1. **Direct:** Response rate and resolution rate are scoring signals
 2. **Indirect:** When users update their reviews after resolution, the weighted rating improves
 
-A company that actively resolves issues will have a higher trust score than a company with the same average rating that ignores feedback.
+A company that actively resolves issues will have a higher 5R★ Trust Score than a company with the same average rating that ignores feedback.
 
-## Language Shift
+## 💬 Language Shift
 
 To encourage constructive content, the platform uses decision-oriented language:
 
@@ -51,13 +51,13 @@ To encourage constructive content, the platform uses decision-oriented language:
 | "Report this company" | "Help others decide" |
 | "Rate this company" | "How was your experience?" |
 
-## Rewarding Positive Participation
+## 🏅 Rewarding Positive Participation
 
 | Mechanism | Description |
 |-----------|-------------|
-| Verified badge | Shows the review comes from a confirmed customer |
-| Contributor level | Recognizes active, high-quality reviewers |
-| Helpful votes | Community validation of useful reviews |
-| Updated review highlight | Shows that the reviewer engaged with the company response |
+| ✅ Verified badge | Shows the review comes from a confirmed customer |
+| ⭐ Contributor level | Recognizes active, high-quality reviewers |
+| 👍 Helpful votes | Community validation of useful reviews |
+| 🔄 Updated review highlight | Shows that the reviewer engaged with the company response |
 
 These mechanisms ensure that constructive, detailed reviews receive more visibility and influence than angry one-liners.

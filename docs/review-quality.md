@@ -1,4 +1,4 @@
-# Review Quality Scoring
+# ✍️ Review Quality Scoring
 
 A five-metric model that evaluates how useful and trustworthy a review is, producing a score from 0 to 100.
 
@@ -8,11 +8,11 @@ Quality score does **NOT** affect a company's position in search results ([Sacre
 - Moderation prioritization
 - Internal analytics
 - Reviewer feedback (helping users write better reviews)
-- Minor weight contribution to trust score (higher quality = slightly more influence)
+- Minor weight contribution to 5R★ Trust Score (higher quality = slightly more influence)
 
 ## The Five Metrics
 
-### 1. Specificity
+### 1. 🎯 Specificity
 
 Does the review contain concrete, verifiable information?
 
@@ -28,7 +28,7 @@ Does the review contain concrete, verifiable information?
 - Generic statements without supporting detail
 - Absence of any quantitative data
 
-### 2. Humanity
+### 2. 🧑 Humanity
 
 Does the review sound like it was written by a real person?
 
@@ -43,7 +43,7 @@ Does the review sound like it was written by a real person?
 - Uniform, robotic sentence rhythm
 - Overly formal or marketing-like tone
 
-### 3. Helpfulness
+### 3. 💡 Helpfulness
 
 Does the review help other users make decisions?
 
@@ -57,7 +57,7 @@ Does the review help other users make decisions?
 **Lower scores for:**
 - Very short reviews with minimal content
 
-### 4. Readability
+### 4. 📖 Readability
 
 Is the review easy to read and understand?
 
@@ -71,7 +71,7 @@ Is the review easy to read and understand?
 - Monotonous structure (all sentences the same length)
 - Single wall of text without breaks
 
-### 5. Credibility
+### 5. ✅ Credibility
 
 What verification supports the review?
 
@@ -85,17 +85,17 @@ What verification supports the review?
 - Unverified or imported content
 - No supporting evidence
 
-## Grading
+## 📊 Grading
 
 | Grade | Score | Meaning |
 |-------|-------|---------|
-| A | 90-100 | Exceptional — detailed, specific, genuinely helpful |
-| B | 80-89 | Good — useful content with solid detail |
-| C | 70-79 | Acceptable — some detail, room for improvement |
-| D | 60-69 | Below average — mostly vague |
-| F | < 60 | Low quality — minimal decision-making value |
+| ⭐ A | 90–100 | Exceptional — detailed, specific, genuinely helpful |
+| ✅ B | 80–89 | Good — useful content with solid detail |
+| ➖ C | 70–79 | Acceptable — some detail, room for improvement |
+| ⚠️ D | 60–69 | Below average — mostly vague |
+| 🔻 F | < 60 | Low quality — minimal decision-making value |
 
-## Multi-Language Support
+## 🌍 Multi-Language Support
 
 Quality scoring is calibrated per language to account for:
 - Different average review lengths across cultures

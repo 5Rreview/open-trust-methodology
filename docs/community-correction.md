@@ -1,4 +1,4 @@
-# Community Correction
+# 👥 Community Correction
 
 Users collectively improve review accuracy through flagging and voting mechanisms.
 
@@ -8,26 +8,26 @@ Users can mark any review with one of four signals:
 
 | Signal | Meaning | Effect |
 |--------|---------|--------|
-| Helpful | This review helped me make a decision | Increases review weight |
-| Misleading | This review contains inaccurate information | Triggers moderator review at threshold |
-| Suspicious | This review looks fake or paid | Feeds into detection signals |
-| Outdated | This information is no longer accurate | Reduces time decay weight further |
+| 👍 Helpful | This review helped me make a decision | Increases review weight |
+| ⚠️ Misleading | This review contains inaccurate information | Triggers moderator review at threshold |
+| 🚩 Suspicious | This review looks fake or paid | Feeds into detection signals |
+| 📅 Outdated | This information is no longer accurate | Reduces time decay weight further |
 
-## The Correction Loop
+## 🔄 The Correction Loop
 
 ```
 Community detects issue
     → Algorithm reduces impact
         → Company responds
             → Users update experience
-                → Trust score adjusts
+                → 5R★ Trust Score adjusts
 ```
 
 This creates a self-correcting system where:
 1. Low-quality reviews lose influence through community signals
 2. Companies have incentive to resolve issues (improves their score)
 3. Users see resolution and can update their reviews
-4. The trust score reflects the current state, not just the past
+4. The 5R★ Trust Score reflects the current state, not just the past
 
 ## Aggregation
 
@@ -38,7 +38,7 @@ Community signals are aggregated, not individual:
 
 This prevents a single bad actor from manipulating the correction system.
 
-## Why Not Just Delete?
+## ⚖️ Why Not Just Delete?
 
 | Action | Problem |
 |--------|---------|

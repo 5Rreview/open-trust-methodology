@@ -1,6 +1,6 @@
-# Time Decay
+# ⏳ Time Decay
 
-Old reviews gradually lose influence on trust scores. This ensures that companies can recover from past problems and that current service quality is reflected accurately.
+Old reviews gradually lose influence on 5R★ Trust Scores. This ensures that companies can recover from past problems and that current service quality is reflected accurately.
 
 ## Why Decay?
 
@@ -14,7 +14,7 @@ We use exponential decay — the most natural model for diminishing relevance ov
 - **Older reviews** carry progressively less weight
 - The decay is smooth and continuous, not step-based
 
-### Industry Tuning
+### 🏭 Industry Tuning
 
 Different industries change at different rates. The decay curve is tuned per industry category:
 
@@ -26,7 +26,7 @@ Different industries change at different rates. The decay curve is tuned per ind
 
 ## Decay Does NOT Mean Deletion
 
-Old reviews remain fully visible and readable. Only their mathematical contribution to the trust score decreases. Users can still read and find every review ever written.
+Old reviews remain fully visible and readable. Only their mathematical contribution to the 5R★ Trust Score decreases. Users can still read and find every review ever written.
 
 ## Interaction with Volume
 
@@ -38,7 +38,7 @@ A company with many reviews (spanning years) and a company with few reviews (all
 ## Edge Cases
 
 **Company with only old reviews:**
-When all reviews have aged significantly, the trust score displays a "limited recent data" indicator rather than showing a potentially misleading number.
+When all reviews have aged significantly, the 5R★ Trust Score displays a "limited recent data" indicator rather than showing a potentially misleading number.
 
 **Sudden review burst after long silence:**
 Handled by the [Company Abuse Protection](integrity.md#company-abuse-protection) mechanism — unusual spikes trigger investigation regardless of whether reviews are positive or negative.

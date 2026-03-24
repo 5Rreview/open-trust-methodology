@@ -1,30 +1,30 @@
-# Sacred Rules
+# ⭐ Sacred Rules
 
-These are inviolable principles that govern the 5R Trust platform. No business decision, revenue target, or partnership agreement can override them.
+These are inviolable principles that govern the 5R★ platform. No business decision, revenue target, or partnership agreement can override them.
 
 ## The Rules
 
-### 1. Ranking Independence
+### 🔒 1. Ranking Independence
 
-A company's trust score, search position, and visibility are **never** influenced by payment status. Premium features provide analytics and tools — never ranking advantages.
+A company's 5R★ Trust Score, search position, and visibility are **never** influenced by payment status. Premium features provide analytics and tools — never ranking advantages.
 
 ```
 Paid features = Tools (analytics, CRM, response tools, branding)
 Free features = Trust (ranking, reviews, scores, search results)
 ```
 
-### 2. No Silent Deletion
+### 📝 2. No Silent Deletion
 
 Reviews are never quietly removed. When a review's influence needs to be reduced:
 - Weight reduction is preferred over removal
 - If removal is necessary (legal, policy violation), the reviewer is notified
 - Moderation decisions are logged and auditable
 
-### 3. Right to Respond
+### 💬 3. Right to Respond
 
-Every reviewed entity has the ability to publicly respond to any review. Responses are visible to all users and factor into the trust score calculation (response rate).
+Every reviewed entity has the ability to publicly respond to any review. Responses are visible to all users and factor into the 5R★ Trust Score calculation (response rate).
 
-### 4. Resolution Visibility
+### ✅ 4. Resolution Visibility
 
 When a company resolves an issue raised in a review:
 - The resolution is shown publicly on the review
@@ -32,22 +32,22 @@ When a company resolves an issue raised in a review:
 - Resolved issues improve the company's trust profile
 - The resolution rate is a visible metric
 
-### 5. AI Transparency
+### 🤖 5. AI Transparency
 
 - AI-generated content is always labeled
 - AI-detected manipulation is flagged (not silently applied)
 - The detection methodology is published (this repository)
 - Users can see why a review was flagged
 
-## Separation Architecture
+## 🔒 Separation Architecture
 
 The platform maintains strict separation between:
 
-| Trust Layer | Business Layer |
+| 🛡️ Trust Layer | 💼 Business Layer |
 |-------------|----------------|
 | Ranking algorithm | Analytics dashboard |
 | Review scoring | CRM tools |
-| Trust score | Response management |
+| 5R★ Trust Score | Response management |
 | Search results | Branding features |
 | Fake detection | Competitor comparison |
 
@@ -66,7 +66,7 @@ This means:
 - If a detection rule creates false positives — tune the rule, don't disable it
 - If revenue would increase by relaxing detection — never relax detection
 
-## Enforcement
+## 🔐 Enforcement
 
 These rules are enforced through:
 1. **Code architecture** — trust and business modules are physically separated

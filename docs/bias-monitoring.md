@@ -1,6 +1,6 @@
-# Bias Monitoring
+# ⚖️ Bias Monitoring
 
-How the 5R Trust platform monitors and mitigates bias in trust scoring across languages, cultures, and industries.
+How the 5R★ platform monitors and mitigates bias in trust scoring across languages, cultures, and industries.
 
 ## The Problem
 
@@ -11,7 +11,7 @@ Trust scoring can introduce systematic bias through multiple channels:
 - **Volume bias** — companies with more reviews get more stable scores
 - **Detection bias** — AI phrase lists may have different sensitivity per language
 
-## Per-Language Calibration
+## 🌍 Per-Language Calibration
 
 The platform supports 20 locales. Each locale has calibrated scoring parameters:
 
@@ -28,7 +28,7 @@ The platform supports 20 locales. Each locale has calibrated scoring parameters:
 | Thai | No spaces between words | Language-specific tokenization |
 | Low-resource languages | Limited NLP model coverage | Conservative scoring, wider confidence intervals |
 
-## Fairness Metrics
+## 📊 Fairness Metrics
 
 The platform tracks these metrics across locale segments:
 
@@ -39,7 +39,7 @@ The platform tracks these metrics across locale segments:
 | Quality grade distribution | Are certain languages graded more harshly? | Consistent grading |
 | False positive rate | Are genuine reviews flagged more often in certain languages? | Minimize disparity |
 
-## Industry Fairness
+## 🏭 Industry Fairness
 
 Different industries have different review profiles:
 - **High-emotion industries** (restaurants, travel) — more polarized ratings
@@ -48,7 +48,7 @@ Different industries have different review profiles:
 
 The scoring model accounts for these differences through industry-specific calibration of time decay and confidence thresholds.
 
-## Continuous Monitoring
+## 🔄 Continuous Monitoring
 
 Bias monitoring is an ongoing process:
 1. **Collect** — aggregate scoring data across locale and industry segments
